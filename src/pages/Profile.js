@@ -1,6 +1,5 @@
 import React from "react";
 import Menu from "../components/menu/Menu";
-import { userIsAuthenticated } from "../redux/HOCs";
 
 class Profile extends React.Component {
   render() {
@@ -13,4 +12,4 @@ class Profile extends React.Component {
   }
 }
 
-export default userIsAuthenticated(Profile);
+export default Profile;
